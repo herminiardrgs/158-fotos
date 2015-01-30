@@ -3,17 +3,30 @@
 	<meta charset=sutf-8 />
 
 	<title>fotos</title>
-	<link href="/css/styles.css" rel="stylesheet" />
+	<link href="estilos.css" rel="stylesheet" />
+	<script src="js/jquery.js"></script>
 
 	<script src="js/jquery.colorbox.js"></script>
-	<script src="js/jquery.js"></script>
 
 
 </head>
 <body id="index">
+	<a href="images/aaa.jpg">
 	<img src="images/aaa.jpg" alt="aaa">
-		<img src="images/bbb.jpg" alt="bbb">
-			<img src="images/ccc.jpg" alt="ccc">
+</a>
+
+
+
+		<a href="images/bbb.jpg"><img src="images/bbb.jpg" alt="bbb"></a>
+
+
+			<a href="images/ccc.jpg"><img src="images/ccc.jpg" alt="ccc"></a>
+
+
+<script>
+	jQuery('a').colorbox();
+</script>
+
 
 
 </body>
